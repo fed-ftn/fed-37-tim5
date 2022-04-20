@@ -3,38 +3,41 @@
 
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .doktori{
-    text-align: center;
     width: 70%;
     margin: 0 auto;
     padding: 3rem;
 }
 h1{
-    color: blue;
+    text-align: center;
+    color: $color-blue;
     margin-bottom: 2rem;
 }
 
 table{
     width: 100%;
+    text-align: left;
     border-collapse: collapse;
-
+    border-color: $color-blue--border;
     @include border-clear;
     tr{
-        
         th{
-            background-color: white;
-            border-left: none;
-            border-right: none;
+            border-color: $color-blue--border;
+            background-color: $color-blue--headings;
+            padding: 1rem 0;
+            @include border-clear;
         }
         td{
 
-            border-left: none;
-            border-right: none;
+            border-color: $color-blue--border;
+            padding: 1rem 0;
+            @include border-clear;
         }
         &:nth-child(odd){
-            background-color: aqua;
+            background-color:  $color-blue-light;
 
         }
     }

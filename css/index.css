@@ -1,37 +1,44 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .doktori {
-  text-align: center;
   width: 70%;
   margin: 0 auto;
   padding: 3rem;
 }
 
 h1 {
+  text-align: center;
   color: blue;
   margin-bottom: 2rem;
 }
 
 table {
   width: 100%;
+  text-align: left;
   border-collapse: collapse;
+  border-color: lightblue;
   border-left: none;
   border-right: none;
 }
 table tr th {
-  background-color: white;
+  border-color: lightblue;
+  background-color: #ebfafc;
+  padding: 1rem 0;
   border-left: none;
   border-right: none;
 }
 table tr td {
+  border-color: lightblue;
+  padding: 1rem 0;
   border-left: none;
   border-right: none;
 }
 table tr:nth-child(odd) {
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0.26);
 }
 
 /*# sourceMappingURL=index.css.map */
