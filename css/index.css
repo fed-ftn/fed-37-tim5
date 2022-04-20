@@ -1,3 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.doktori {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+h1 {
+  color: blue;
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+}
+table tr th {
+  background-color: white;
+  border-left: none;
+  border-right: none;
+}
+table tr td {
+  border-left: none;
+  border-right: none;
+}
+table tr:nth-child(odd) {
+  background-color: aqua;
+}
 
 /*# sourceMappingURL=index.css.map */
